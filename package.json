@@ -1,7 +1,7 @@
 {
   "name": "hubot-epichal",
   "description": "Turn hubot into a conversational partner with EpicHAL",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Ryan Sorensen <rcsorensen@gmail.com>",
   "license": "MIT",
   "keywords": [
