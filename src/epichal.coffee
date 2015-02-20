@@ -54,8 +54,10 @@ module.exports = (robot) ->
   robot.hear /.+/, (msg) ->
     return unless msg.message.text
 
-    maybeName = msg.message.text.split(/\b/)[0]
+
+    splitTokens = maybeName = msg.message.text.split(/\b/)
+    maybeName = splitTokens[0]
     if maybeName.toUpperCase() == robot.name.toUpperCase()
       robot.logger.debug 'Responding from EpicHAL'
-      eh.reply split.slice(2).join(''), ( err, res ) ->
+      eh.reply splitTokens.slice(2).join(''), ( err, res ) ->
         msg.send res
