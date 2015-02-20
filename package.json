@@ -1,0 +1,34 @@
+{
+  "name": "hubot-epichal",
+  "description": "Turn hubot into a conversational partner with EpicHAL",
+  "version": "0.1.0",
+  "author": "Ryan Sorensen <rcsorensen@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "epichal",
+    "megahal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcs/hubot-epichal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcs/hubot-epichal/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "epichal": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  }
+}
