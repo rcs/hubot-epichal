@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "coffee-script": "~1.6",
-    "epichal": "^0.1.0"
+    "epichal": "^0.1.0",
+    "redis": "^0.12.1"
   },
   "devDependencies": {
     "mocha": "*",
